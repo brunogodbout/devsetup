@@ -9,9 +9,13 @@ Follow the instructions on the [Homebrew](https://brew.sh/) home page.  At the t
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-This will install most of the software required for development.  Among these is [yadm](https://yadm.io/), which we will use to install the configuration files.
+## Step 2 - Install yadm using Homebrew
 
-## Step 2 - Install the configuration files
+```bash
+brew install yadm
+```
+
+## Step 3 - Install the configuration files
 
 This requires that you can access this repo.  Make sure you have installed your ssh keys.
 
@@ -21,3 +25,8 @@ Then use yadm to install the configuration files:
 yadm clone git@github.com:brunogodbout/devsetup.git
 yadm status
 ```
+
+## Step 3 - Install software using Homebrew bundle
+
+This will install most of the software required for development.  You should be able to ignore most of the messages regarding updating the dotfiles as this has already been done and saved in the dotfiles in this repo.
+

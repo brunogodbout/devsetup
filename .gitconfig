@@ -1,6 +1,6 @@
 [user]
 	name = Bruno Godbout
-	email = bruno.godbout@hapticsoft.com
+	email = bruno.godbout@gmail.com
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustexitcode = true

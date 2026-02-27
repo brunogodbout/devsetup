@@ -1,6 +1,15 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-eval "$(/usr/local/bin/brew shellenv bash)"
+# set BREW_CMD depending on OS
+if [ "$(uname -s)" = "Darwin" ]; then
+    # macOS
+    BREW_CMD="/usr/local/bin/brew"
+else
+    # assume Linux
+    BREW_CMD="/home/linuxbrew/.linuxbrew/bin/brew"
+fi
+
+eval "$($BREW_CMD shellenv bash)"
 
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc

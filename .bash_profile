@@ -1,9 +1,10 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-# set BREW_CMD depending on OS
+# set environment variables depending on OS
 if [ "$(uname -s)" = "Darwin" ]; then
     # macOS
     BREW_CMD="/usr/local/bin/brew"
+    export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 else
     # assume Linux
     BREW_CMD="/home/linuxbrew/.linuxbrew/bin/brew"

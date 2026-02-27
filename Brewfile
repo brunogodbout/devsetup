@@ -4,6 +4,7 @@ brew "bat"
 brew "ripgrep"
 brew "navi"
 brew "tldr"
+brew "thefuck"
 # Improved command line
 brew "starship"
 # Software development

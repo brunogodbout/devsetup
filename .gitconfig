@@ -16,3 +16,5 @@
 	tool = Kaleidoscope
 [config "pull"]
 	rebase = true
+[pull]
+	rebase = true

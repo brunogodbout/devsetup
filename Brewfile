@@ -19,6 +19,9 @@ brew "yadm"
 # Terminal emulator
 cask "tabby"
 
+# Fonts
+cask "font-fira-code"
+
 brew "fortune"
 brew "cowsay"
 

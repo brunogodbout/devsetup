@@ -30,3 +30,6 @@ yadm status
 
 This will install most of the software required for development.  You should be able to ignore most of the messages regarding updating the dotfiles as this has already been done and saved in the dotfiles in this repo.
 
+```bash
+brew bundle
+```

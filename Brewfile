@@ -21,6 +21,10 @@ cask "tabby"
 
 brew "tmux"
 
+# Editors / integrated development environments
+brew "neovim"
+cask "visual-studio-code"
+
 # Fonts
 cask "font-fira-code"
 

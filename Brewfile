@@ -19,6 +19,8 @@ brew "yadm"
 # Terminal emulator
 cask "tabby"
 
+brew "tmux"
+
 # Fonts
 cask "font-fira-code"
 

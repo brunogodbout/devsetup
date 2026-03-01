@@ -4,6 +4,7 @@
 format = """
 [](color_orange)\
 $os\
+$hostname\
 $username\
 [](bg:color_yellow fg:color_orange)\
 $directory\
@@ -69,7 +70,13 @@ Pop = ""
 show_always = true
 style_user = "bg:color_orange fg:color_fg0"
 style_root = "bg:color_orange fg:color_fg0"
-format = '[ $user ]($style)'
+format = '[as $user ]($style)'
+
+[hostname]
+ssh_only = false
+style = "bg:color_orange fg:color_fg0"
+format = "[ $hostname ]($style)"
+aliases = { "MacBookPro" = "MBP" }
 
 [directory]
 style = "fg:color_fg0 bg:color_yellow"

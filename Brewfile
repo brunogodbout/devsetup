@@ -18,7 +18,7 @@ brew "jmeter"
 brew "yadm"
 # Terminal emulator
 cask "tabby"
-
+cask "ghostty"
 brew "tmux"
 
 # Editors / integrated development environments
